@@ -17,7 +17,6 @@
 \maketitle
 \pagenumbering{arabic}
 
-
 \section{Introduction}
 A principal objective of social network research is to establish knowledge on the antecedents of social network structures. Such knowledge is typically induced by deriving hypotheses from theory and evaluating whether these hold with respect to a social network sample. Hypotheses can be represented as parameters in a statistical social network model. Network models can be used to examine the consistency of a set of hypotheses by emulating an observed network structure within a theoretically delimited hypothetical space \cite{cox2006principles}. The degree to which a network model is able to imitate such a structure is defined as its goodness-of-fit (GOF). External validity describes the degree to which network model results can be applied to the population from which it was drawn \cite{crano2014principles}. External validity stipulates that the results of a network model will not generalize to the population if the network sample to which it was applied does not sufficiently reflect the characteristics of that population. Study results are defined as being externally valid if the network model is able to emulate the structure of the network sample and if that sample captures the characteristics of the network population. Externally valid results consequently express the efficacy of a theory for explaining a social network structure in the population.
 \\
@@ -102,6 +101,21 @@ The second step is to obtain social network samples to which the exponential ran
 The heterogeneity factor can consequently be operationalised in two ways. It can either be represented as the difference in the distribution of the covariate and the structural features of the networks in the sample, or as the difference in the effect of the parameter for these features. Here, the second approach is adopted, meaning that parameter effects are varied for the networks in the sample. More specifically, three scenario's are identified: one with little variability in the effect of the respective parameters between sample networks, one with moderate such variability, and one with high variability. It is consequently examined whether the precision of the meta-analyzed exponential random graph model (ERGM) increases with decreased heterogeneity, and whether this is consistent with the goodness-of-fit (GOF) indices. 
 \\
 The complexity factor is finally examined by varying the complexity of the exponential random graph model (ERGM) that is applied to the different network samples. Note that a complexity continuum has already defined by way of the network samples which vary in their size and heterogeneity. ERGMs with low, moderate, and high respective complexity are fitted to each of these different samples. As such, with regards to the heterogeneity factor, three different scenario's are identified. It is consequently examined whether the precision of the meta-analyzed ERGM increases for a decrease in the discrepancy between sample and model complexity. It is also assessed whether this is consistent with the goodness-of-fit (GOF) indices. Furthermore, both covariate and structural effects are included in each ERGM, which remain constant regardless of the complexity of the sample to which the ERGM is applied. This enables examining whether covariate parameters estimates are more precise than their structural counterparts. \clearpage \noindent Ultimately, for the scenario's as they have been defined here, a total of $27$  scenario's can be identified. Under these specifications, the effects for all the hypothesized factors can be evaluated.
+
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Complexity & Heterogeneity & \multicolumn{3}{l}{Sample size}         \\ \midrule
+           &               & 10          & 20          & 50          \\
+Low        & Low           & Scenario 1  & Scenario 2  & Scenario 3  \\
+           & Moderate      & Scenario 4  & Scenario 5  & Scenario 6  \\
+           & High          & Scenario 7  & Scenario 8  & Scenario 9  \\
+Moderate   & Low           & Scenario 10 & Scenario 11 & Scenario 12 \\
+           & Moderate      & Scenario 13 & Scenario 14 & Scenario 15 \\
+           & High          & Scenario 16 & Scenario 17 & Scenario 18 \\
+High       & Low           & Scenario 19 & Scenario 20 & Scenario 21 \\
+           & Moderate      & Scenario 22 & Scenario 23 & Scenario 24 \\
+           & High          & Scenario 25 & Scenario 26 & Scenario 27 \\ \bottomrule
+\end{tabular}
 
 \bibliographystyle{apacite}
 \bibliography{name}

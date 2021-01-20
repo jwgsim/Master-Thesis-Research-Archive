@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.28)  20 JAN 2021 11:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.28)  20 JAN 2021 11:23
 entering extended mode
 **./manuscript.tex
 (manuscript.tex
@@ -523,10 +523,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [26])
 AED endfloat: Processing end Figures and Tables [27] (manuscript.aux) ) 
 Here is how much of TeX's memory you used:
- 7226 strings out of 479799
- 104994 string characters out of 2881994
- 396932 words of memory out of 3000000
- 24089 multiletter control sequences out of 15000+200000
+ 7227 strings out of 479799
+ 105008 string characters out of 2881994
+ 396941 words of memory out of 3000000
+ 24090 multiletter control sequences out of 15000+200000
  583709 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,10n,85p,3168b,494s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -543,7 +543,7 @@ iktex/fonts/type1/public/lm/lmr6.pfb><C:/Academia/Miktex/fonts/type1/public/lm/
 lmr8.pfb><C:/Academia/Miktex/fonts/type1/public/lm/lmri12.pfb><C:/Academia/Mikt
 ex/fonts/type1/public/lm/lmsy10.pfb><C:/Academia/Miktex/fonts/type1/public/lm/l
 msy8.pfb>
-Output written on manuscript.pdf (27 pages, 243184 bytes).
+Output written on manuscript.pdf (27 pages, 243185 bytes).
 PDF statistics:
  146 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

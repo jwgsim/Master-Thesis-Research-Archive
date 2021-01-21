@@ -1,4 +1,4 @@
-### Thesis Manuscript Subrepository
+### Master Thesis Manuscript Subrepository
 This subrepository contains the necessary files for reproducing the master thesis manuscript in Portable Document Format (PDF). More specifically, this subrepository contains: 
 
 * `manuscript.tex`: A LaTeX file for preparing a PDF of the master thesis manuscript. 

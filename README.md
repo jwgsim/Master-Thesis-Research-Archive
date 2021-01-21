@@ -5,7 +5,7 @@ Note that at the time of writing (22-01-2021) the results and conclusion section
 
 | Folder | Description | Software requirements |
 | ----------- | ----------- | ----------------- |
-| `1_Manuscript` | Folder containing the necessary files for reproducing the current iteration of the master thesis manuscript. | [Texmaker version 5.0.4](https://www.xm1math.net/texmaker/) |
+| `1_Manuscript` | Folder containing the necessary files for reproducing the master thesis manuscript in its most current state. | [Texmaker version 5.0.4](https://www.xm1math.net/texmaker/) |
 | `2_Goodness-of-fit demonstration` | Folder containing the data and R-script required for executing the goodness-of-fit demonstration. | [R version 4.0.3](https://cran.r-project.org/bin/windows/base/) |
 
 For any help with the files in this research archive, please contact Jan-Willem Simons (j.g.simons@uu.nl).

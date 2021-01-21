@@ -2,9 +2,9 @@
 ########## Goodness-of-fit (GOF) demonstration ##########
 #########################################################
 
-####################
-##### Packages #####
-####################
+#############################
+##### Required Packages #####
+#############################
 
 ### If necessary, install and require:  
 ## "network" package;
@@ -20,25 +20,25 @@ library(ergm) # Fitting & evaluating ERGMs.
 if(!require(coda)) install.packages("coda")
 library(coda) # MCMC diagnostics for goodness of fit.
 
-########################
-##### Network data #####
-########################
+##################################
+##### Importing Network data #####
+##################################
 
 ### Set working directory. 
-setwd("C:\\Academia\\MSBBSS\\Jaar 2\\Thesis\\Thesis Data")
+setwd("Your_Working_Directory_Here")
 
 ### Read in the network data on the 19th network from the Vermeij data. Note that this is an empirical and not a simulated 
 ### network. The primary analysis strategy of the thesis project is to simulate a network which is similar in structure 
-### to an empirical one (like the one presented here). Since it is simulated, we know the "true" underlying parameter
-### values, and will thus be able to calculate bias when applying an ERGM to re-estimate these parameters. This is then 
-### extended to a network sample context (but note that here we are exclusively operating on the single network level). 
+### to an empirical one (like the one presented here). This provides the advantage of knowing the "true" underlying parameter
+### values, and will enable calculating quantities such as the bias when applying an ERGM to re-estimate these parameters. This 
+### is then extended to a network sample context (but note that here we are exclusively operating on the single network level). 
 ### For the sake of convenience, an empirical network is here used, because the simulation setup is still a work in progress. 
 
-## Network file. 
+## Import network file. 
 not <- as.matrix(read.table(file = paste("C:\\Academia\\MSBBSS\\Jaar 2\\Thesis\\Thesis Data\\not", 19, ".net", sep = "")))
 size <- dim(not)[1] 
 not <- not[1 : size, 1 : size]
-## Covariate file.
+## Import covariate file.
 cov <- read.table(file = paste("C:\\Academia\\MSBBSS\\Jaar 2\\Thesis\\Thesis Data\\cov", 19, ".dat", sep = ""),
                   col.names = c("girl", "identcGMC", "identcCMC", "identcCM", "percgirl")) 
 
@@ -57,9 +57,10 @@ model <- notnet ~ edges + mutual + nodeicov("identclass") + nodeocov("identclass
 ### ERGM Estimation.
 results <- ergm(model, control= control.ergm(MCMC.samplesize = 10000, seed = 3791), verbose = T) # Takes a short while. Note that 
 # these parameter estimates and their standard errors will ultimately serve as inputs for the meta-analysed ERGM over a simulated
-# network sample. Put differently, one ERGM with the same specification is fitted to each network in a sample (as is done here
-# for one network), and a meta-analysis is then used to obtain a single ERGM specification over that network sample.
-## Summary of results.
+# network sample. Put differently, one ERGM with the same specification is fitted to each network in a sample (is done here for
+# one such a network), and a meta-analysis is then used to obtain a single ERGM specification over that network sample.
+
+### Summary of results.
 summary(results)
 
 ##############################################################################
@@ -213,9 +214,9 @@ dftriad <- length(ranget)
 ptriad <- 1 - pchisq(mahaltriad, dftriad)
 triad <- c(mahaltriad, dftriad, ptriad)
 
-###################
-##### Summary #####
-###################
+######################
+##### Conclusion #####
+######################
 
 ### The previous can be summarized by way of the Mahalanobis p-values: 
 summ <- round(rbind(pi, po, pdist, pesp, pdsp, ptriad), 2)

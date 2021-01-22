@@ -1,7 +1,7 @@
-### Goodness-Of-Fit Demonstration Subrepository
-This subrepository contains the necessary files for executing the goodness-of-fit (GOF) demonstration. More specifically, this subrepository contains: 
+### Goodness-of-fit demonstration subrepository
+This subrepository contains the necessary files for executing the goodness-of-fit demonstration. More specifically, this subrepository contains: 
 
-* `Data`: A folder containing two empirical data files: `cov19.dat` and `not19.net`. `cov19.dat` contains co-variate information about the students in the classroom. `not19.net` contains friendship nominations between the students in the classroom. 
-* `Goodness-of-fit demonstration.R`: An R-script with code for obtaining. Annotation.  
+* `Data`: A folder containing two data files: `cov19.dat` and `not19.net`. These two files contain information on a single classroom from a sample of classrooms obtained by [Vermeij (2007)](https://journals.sagepub.com/doi/10.1177/0268580907082248). More specifically, `cov19.dat` contains co-variate information on the students in the classroom where `not19.net` contains friendship nominations between the students. Note that permission has been obtained for using these data in a private repository. The reader is requested not to further re-distribute these files without express permission. 
+* `Goodness-of-fit demonstration.R`: An annotated R-script for obtaining the goodness-of-fit of an exponential random graph model which has been applied to the Vermeij classroom data. Annotations which discuss how to extend goodness-of-fit from the level of the network to the level of the sample are also provided.  
 
-use r for opening and running the r script. Please specify directory to the data file.
+Please note that the reader should specify the working directory on line 28 of the `Goodness-of-fit demonstration.R`-script to a local folder containing the `cov19.dat` and `not19.net` data files. 

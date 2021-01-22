@@ -1,4 +1,4 @@
-### Goodness-of-fit demonstration subrepository
+### Goodness-of-fit Demonstration Subrepository
 This subrepository contains the necessary files for executing the goodness-of-fit demonstration. More specifically, this subrepository contains: 
 
 * `Data`: A folder containing two data files: `cov19.dat` and `not19.net`. These two files contain information on a single classroom from a sample of classrooms obtained by [Vermeij (2007)](https://journals.sagepub.com/doi/10.1177/0268580907082248). More specifically, `cov19.dat` contains co-variate information on the students in the classroom where `not19.net` contains friendship nominations between the students. Note that permission has been obtained for using these data in a private repository. The reader is requested not to further re-distribute these files without express permission. 

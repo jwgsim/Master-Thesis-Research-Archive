@@ -25,7 +25,7 @@ library(coda) # MCMC diagnostics for goodness of fit.
 ##################################
 
 ### Set working directory. 
-setwd("Your_Working_Directory_Here")
+setwd("C:\\Users\\janwi\\Documents\\GitHub\\master_thesis_research_archive\\2_Goodness-of-fit demonstration\\Data")
 
 ### Read in the network data on the 19th network from the Vermeij data. Note that this is an empirical and not a simulated 
 ### network. The primary analysis strategy of the thesis project is to simulate a network which is similar in structure 
@@ -57,8 +57,8 @@ model <- notnet ~ edges + mutual + nodeicov("identclass") + nodeocov("identclass
 ### ERGM Estimation.
 results <- ergm(model, control= control.ergm(MCMC.samplesize = 10000, seed = 3791), verbose = T) # Takes a short while. Note that 
 # these parameter estimates and their standard errors will ultimately serve as inputs for the meta-analysed ERGM over a simulated
-# network sample. Put differently, one ERGM with the same specification is fitted to each network in a sample (is done here for
-# one such a network), and a meta-analysis is then used to obtain a single ERGM specification over that network sample.
+# network sample. Put differently, one ERGM with the same specification is fitted to each network in a sample (which is done here 
+# for one such a network), and a meta-analysis is then used to obtain a single ERGM specification over that network sample.
 
 ### Summary of results.
 summary(results)
@@ -68,23 +68,23 @@ summary(results)
 ##############################################################################
 
 ### Information criteria.
-# Note that it is now possible to obtain the AIC and SIC for this ERGM over this network. 
+# It is now possible to obtain the AIC and SIC for this ERGM over this network. 
 summary(results)["aic"] # AIC.
 summary(results)["bic"] # SIC.
-# Note however that in their current form these values are not useful for diagnosing the GOF of this single network because they are 
-# relative measures. This means that the same ERGM has to be applied to the remaining networks in the sample for the AIC and SIC to 
-# become meaningful. In that case, the AIC and SIC can be used to evaluate the relative fit of the ERGM to each networks in the sample. 
+# Note however that these values are not useful for diagnosing the GOF of this single network because they are relatve measures.  
+# This means that the same ERGM has to be applied to the remaining networks in the sample for the AIC and SIC to become meaningful as
+# measure of GOF.  In that case, the AIC and SIC can be used to evaluate the relative fit of the ERGM to each networks in the sample. 
 # Note that different ERGMs can also be applied to either the same network or different networks in the sample, after which the AIC and
 # SIC can be used to identify the superior model. For the sake of keeping the scope manageable, this possibility is excluded on the 
 # single network level. 
 
-# From these AIC and SIC values the AIC and SIC on the level of the network sample can subsequently also be obtained. The exact procedure
-# is presented in the manuscript. Note however that the same problem that was defined earlier is here re-introduced, i.e., we need at least 
+# From these AIC and SIC values the AIC and SIC on the level of the network sample can subsequently be obtained. The exact procedure is
+# presented in the manuscript. Note however that the same problem that was defined earlier is here re-introduced, i.e., we need at least 
 # two AIC and SIC at the level of the network sample to meaningfully interpret these values. As such, a differently specificied ERGM 
 # should be applied to the sample to obtain sample level AIC and SIC values which can be compared to the previously obtained 
 # AIC and SIC values. This comparison can then be used to identify the superior ERGM on the level of the network sample.
 
-### Auxilary statistics GOF. 
+### Convergence checks. 
 ## Start by quantifying whether the ERGM converged. The GOF function draws a sample of graphs for the parameters in the 
 ## specified ERGM, as described in the manuscript.
 fit <- gof(model, GOF =~ model, coef = results$coef, control.gof.ergm(seed = 3792, MCMC.interval = 1000))
@@ -227,7 +227,8 @@ summ
 # well-modeled by the ERGM. The outdegree, distance, and edgewise shared partners are. 
 
 # In summary, we have seen how to determine the goodness-of-fit (GOF) of an exponential random graph model (ERGM) to a single network 
-# with information criteria as an index (with some additional textual explanation), or auxilary statistics as an index. 
+# with information criteria as an index (with some additional textual explanation on how to do it on the level of the sample), 
+# or auxilary statistics as an index. 
 
 # Note that GOF on the single network is readily extended to the meta-analyzed ERGM at the network sample level. It was already discussed 
 # how the AIC and SIC can be extended to the network level. With respect to the auxilary statistics approach, a similar extension from the 

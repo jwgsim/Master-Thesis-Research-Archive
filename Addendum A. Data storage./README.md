@@ -1,10 +1,14 @@
 Addendum A consists of three folders: 
 
+<br />
+
 - Research description.
 
 This folder contains the research manuscript which provides the reader with a 
 very brief description of the hypotheses, research design, conceptual framework, method followed and 
 structure of the data collected. 
+
+<br />
 
 - Data files.
 
@@ -39,6 +43,8 @@ observed values in those two respective plots. More specifically, this data file
 values for each of the networks in a single sample over which a meta-analysis has been obtained. To keep the scope of the
 data manageable, this data has been saved for this one network sample, but not for all 124. 
 
+<br />
+
 - Computer code.
 
 This folder contains three folders: A folder named "Empirical computer code", a folder named "Simulation computer code", 
@@ -61,7 +67,9 @@ that all provided data files, namely the empirical data, the simulation data fil
 and finally the "myEnvironment.RData" file from the "Empirical computer code.R" script, need to be loaded in the environment
 to obtain all results. 
 
-- Additional information:
+<br />
+
+- Additional information
 All documents and files in the research archive are saved by Jan-Willem Simons. The research thesis manuscript was 
 submitted on 10/05/2021. The data was simulated over the 26-04-2021 to 02-05-2021 period. The empirical data on which
 the simulation study is based was collected by dr. Lotte Vermeij between December 1999 and May 2000. 

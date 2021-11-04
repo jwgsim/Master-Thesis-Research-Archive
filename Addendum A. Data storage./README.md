@@ -1,10 +1,12 @@
 This Readme file contains:
 
-1. Research description - This folder contains the research manuscript which provides the reader with a 
+1. Research description.
+This folder contains the research manuscript which provides the reader with a 
 very brief description of the hypotheses, research design, conceptual framework, method followed and 
 structure of the data collected. 
 
-2. Data files - This folder contains two folders: A folder named "Empirical data" and a folder named 
+2. Data files.
+This folder contains two folders: A folder named "Empirical data" and a folder named 
 "Simulation study data". 
 
 The "Empirical data" folder contains the friendship relations and covariate information of the students in the 8th and 
@@ -35,8 +37,9 @@ observed values in those two respective plots. More specifically, this data file
 values for each of the networks in a single sample over which a meta-analysis has been obtained. To keep the scope of the
 data manageable, this data has been saved for this one network sample, but not for all 124. 
 
-3. Computer code - This folder contains three seperate folders, "Empirical computer code", "Simulation computer code", 
-and "Results computer code". 
+3. Computer code.
+This folder contains three folders: A folder named "Empirical computer code", a folder named "Simulation computer code", 
+and a folder named "Results computer code". 
 
 The "Empirical computer code" folder contains two files: an "Empirical data script.R" R-file and an "myEnvironment.RData"
 file. The reader can use the "Empirical data script.R" file to obtain the "myEnvironment.RData" file. In short the 

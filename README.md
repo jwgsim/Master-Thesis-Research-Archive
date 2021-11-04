@@ -3,7 +3,7 @@ This repository contains the necessary files for replicating the master thesis m
 
 | Folder | Description |
 | ----------- | ----------- |
-| `Addendum A. Data Storage` | Folder containing the necessary files for reproducing the master thesis manuscript. |
+| `Addendum A. Data Storage` | Folder containing files for reproducing the master thesis manuscript. |
 | `Addendum B. Privacy` | Privacy statement. |
 | `Addendum C. Permission and access` | Permission and access statement. |
 

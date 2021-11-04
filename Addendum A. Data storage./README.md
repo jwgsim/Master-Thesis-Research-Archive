@@ -4,7 +4,7 @@ This Readme file contains:
 very brief description of the hypotheses, research design, conceptual framework, method followed and 
 structure of the data collected. 
 
-2. Data files - This folder contains two seperate folders: A folder named "Empirical data" and a folder named 
+2. Data files - This folder contains two folders: A folder named "Empirical data" and a folder named 
 "Simulation study data". 
 
 The "Empirical data" folder contains the friendship relations and covariate information of the students in the 8th and 

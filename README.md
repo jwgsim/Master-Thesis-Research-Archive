@@ -3,8 +3,8 @@ This repository contains the necessary files for replicating the master thesis m
 
 | Folder | Description | Software requirements |
 | ----------- | ----------- | ----------------- |
-| `Addendum A. Data Storage` | Folder containing the necessary files for reproducing the master thesis manuscript. | [Texmaker version 5.0.4](https://www.xm1math.net/texmaker/) |
-| `Addendum B. Privacy` | Folder containing the data and R-script required for executing the goodness-of-fit demonstration. | [R version 4.0.3](https://cran.r-project.org/bin/windows/base/) |
-| `Addendum C. Permission and access` | Folder containing the data and R-script required for executing the goodness-of-fit demonstration. | [R version 4.0.3](https://cran.r-project.org/bin/windows/base/) |
+| `Addendum A. Data Storage` | Folder containing the necessary files for reproducing the master thesis manuscript. | [Texmaker version 5.0.4](https://www.xm1math.net/texmaker/) [R version 4.0.3](https://cran.r-project.org/bin/windows/base/) |
+| `Addendum B. Privacy` | Privacy statement | None |
+| `Addendum C. Permission and access` | Permission and access statement | None |
 
 For any help with the files in this research archive, please contact Jan-Willem Simons (j.g.simons@uu.nl).

@@ -1,4 +1,4 @@
-Addendum A consists of three folders: 
+*Addendum A consists of three folders:* 
 
 <br />
 

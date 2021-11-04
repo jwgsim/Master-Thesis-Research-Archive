@@ -45,6 +45,9 @@ observed values in those two respective plots. More specifically, this data file
 values for each of the networks in a single sample over which a meta-analysis has been obtained. To keep the scope of the
 data manageable, this data has been saved for this one network sample, but not for all 124. 
 
+The size of the simulated data files is unfortunately too large for publishing on GitHub. If you would like to access these data
+you can request them by e-mailing me at j.g.simons@uu.nl.
+
 <br />
 
 #### Computer code.

@@ -1,8 +1,10 @@
-*Addendum A consists of three folders:* 
+## Addendum A. Data storage.
+
+Addendum A consists of three folders:
 
 <br />
 
-- Research description.
+### Research description.
 
 This folder contains the research manuscript which provides the reader with a 
 very brief description of the hypotheses, research design, conceptual framework, method followed and 
@@ -10,7 +12,7 @@ structure of the data collected.
 
 <br />
 
-- Data files.
+### Data files.
 
 This folder contains two folders: A folder named "Empirical data" and a folder named 
 "Simulation study data". 
@@ -45,7 +47,7 @@ data manageable, this data has been saved for this one network sample, but not f
 
 <br />
 
-- Computer code.
+### Computer code.
 
 This folder contains three folders: A folder named "Empirical computer code", a folder named "Simulation computer code", 
 and a folder named "Results computer code". 
@@ -69,7 +71,7 @@ to obtain all results.
 
 <br />
 
-- Additional information
+### Additional information
 All documents and files in the research archive are saved by Jan-Willem Simons. The research thesis manuscript was 
 submitted on 10/05/2021. The data was simulated over the 26-04-2021 to 02-05-2021 period. The empirical data on which
 the simulation study is based was collected by dr. Lotte Vermeij between December 1999 and May 2000. 

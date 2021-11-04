@@ -7,4 +7,4 @@ This repository contains files for replicating the master thesis manuscript "On 
 | `Addendum B. Privacy` | Privacy statement. |
 | `Addendum C. Permission and access` | Permission and access statement. |
 
-For any help with the files in this research archive, please contact Jan-Willem Simons (j.g.simons@uu.nl).
+For any help with or comments on the files in this research archive, please contact Jan-Willem Simons (j.g.simons@uu.nl).

@@ -1,5 +1,5 @@
 ### Research Archive Master Thesis JWG Simons.
-This repository contains the necessary files for replicating the master thesis manuscript "On the validity of applying the exponential random graph model to a network sample" by Jan-Willem Simons. 
+This repository contains files for replicating the master thesis manuscript "On the validity of applying the exponential random graph model to a network sample" by Jan-Willem Simons. It additionally includes statements on data storage, privacy, and permission and access. 
 
 | Folder | Description |
 | ----------- | ----------- |

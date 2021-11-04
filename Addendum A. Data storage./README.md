@@ -1,11 +1,13 @@
 This Readme file contains:
 
 1. Research description.
+
 This folder contains the research manuscript which provides the reader with a 
 very brief description of the hypotheses, research design, conceptual framework, method followed and 
 structure of the data collected. 
 
 2. Data files.
+
 This folder contains two folders: A folder named "Empirical data" and a folder named 
 "Simulation study data". 
 
@@ -38,6 +40,7 @@ values for each of the networks in a single sample over which a meta-analysis ha
 data manageable, this data has been saved for this one network sample, but not for all 124. 
 
 3. Computer code.
+
 This folder contains three folders: A folder named "Empirical computer code", a folder named "Simulation computer code", 
 and a folder named "Results computer code". 
 

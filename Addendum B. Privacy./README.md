@@ -1,4 +1,4 @@
-Addendum B. Privacy.
+## Addendum B. Privacy.
 
 Data protection impact assessment: This study makes use of personal data to conduct a simulation study. Within reason, 
 it is impossible to directly trace this information to the concerned individual. As such, no privacy issues are 

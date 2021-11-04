@@ -1,10 +1,10 @@
-## Addendum A. Data storage.
+### Addendum A. Data storage.
 
 Addendum A consists of three folders:
 
 <br />
 
-### Research description.
+#### Research description.
 
 This folder contains the research manuscript which provides the reader with a 
 very brief description of the hypotheses, research design, conceptual framework, method followed and 
@@ -12,7 +12,7 @@ structure of the data collected.
 
 <br />
 
-### Data files.
+#### Data files.
 
 This folder contains two folders: A folder named "Empirical data" and a folder named 
 "Simulation study data". 
@@ -47,7 +47,7 @@ data manageable, this data has been saved for this one network sample, but not f
 
 <br />
 
-### Computer code.
+#### Computer code.
 
 This folder contains three folders: A folder named "Empirical computer code", a folder named "Simulation computer code", 
 and a folder named "Results computer code". 
